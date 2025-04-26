@@ -3,12 +3,12 @@ package ru.converter;
 public class Converter {
 
     public static float rubleToEuro(float value) {
-        float rsl = Math.round((value / 100) * 100.0f) / 100.0f;
+        float rsl = Math.round((value / 100) * 10000.0f) / 10000.0f;
         return rsl;
     }
 
     public static float rubleToDollar(float value) {
-        float rsl = Math.round((value / 90) * 100.0f) / 100.0f;
+        float rsl = Math.round((value / 90) * 10000.0f) / 10000.0f;
         return rsl;
     }
 
