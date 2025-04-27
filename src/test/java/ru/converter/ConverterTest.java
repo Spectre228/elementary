@@ -44,7 +44,6 @@ class ConverterTest {
     @Test
     void whenConvert289RblThen3Dot21Dlr() {
         float in = 289;
-        float expected = 3.2111f;
         float out = Converter.rubleToDollar(in);
         float eps = 0.0001f;
         assertThat(out).isEqualTo(expected, withPrecision(eps));
