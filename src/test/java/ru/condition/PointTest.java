@@ -17,7 +17,7 @@ class PointTest {
     }
 
     @Test
-    void when44To88Then2() {
+    void when44To88Then5Dot66() {
         int x1 = 4;
         int y1 = 4;
         int x2 = 8;
@@ -28,7 +28,7 @@ class PointTest {
     }
 
     @Test
-    void when13To37Then2() {
+    void when13To37Then4Dot472() {
         int x1 = 1;
         int y1 = 3;
         int x2 = 3;
